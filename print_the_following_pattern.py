@@ -1,7 +1,9 @@
 n=int(input())
 for i in range(1,n+1):
-    k=n+1
-    for j in range(1,n+1):
-        k-=1
-        print("%d"%(k),end=" ")
+    k=0
+    for j in range(i,n+1):
+        k+=1
+        print(f"{k}",end='')
     print()
+        
+        
